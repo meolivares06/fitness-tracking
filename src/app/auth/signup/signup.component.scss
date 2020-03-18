@@ -1,0 +1,15 @@
+$form-height: 70vh;
+$form-width: 300px;
+$min-width: 150px;
+$max-width: 500px;
+.form-signup {
+    height: $form-height;
+
+    min-width: $min-width;
+    max-width: $max-width;
+    width: $form-width;
+}
+
+.mat-form-field {
+    width: $form-width;
+}
