@@ -1,15 +1,32 @@
 $form-height: 70vh;
 $form-width: 300px;
 $min-width: 150px;
-$max-width: 500px;
-.form-signup {
-    height: $form-height;
+$max-width: 300px;
+$full-width: 100%;
 
-    min-width: $min-width;
-    max-width: $max-width;
-    width: $form-width;
+
+section {
+  height: 100vh;
+  background-color: #eee;
+  padding-top: 50px;
 }
 
+
+mat-card {
+  margin: 15px;
+  max-width: $max-width;
+  min-width: $min-width;
+}
 .mat-form-field {
-    width: $form-width;
+  width: $full-width;
 }
+
+@media screen and (min-width: 568px) {
+  section {
+    padding-top: 150px;
+  }
+  mat-card {
+    margin: 15px auto;
+  }
+}
+
