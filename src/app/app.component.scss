@@ -6,32 +6,7 @@
   right: 0;
   background: #eee;
 }
- a {
-  padding: 0 14px;
-  color: white;
-  text-decoration: none;
-}
-a:hover, a:active {
-  color: lightgray;
-}
-
-.example-spacer {
-  margin-right: auto;
-}
-mat-sidenav {
-  width: 250px;
-}
-.nav-caption {
-  margin-left: 6px;
-}
-
-.example-spacer {
-  flex: 1 1 auto;
-}
 mat-sidenav {
   width: 250px;
 }
 
-.main-nav {
-  list-style: none;
-}
