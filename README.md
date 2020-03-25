@@ -23,6 +23,8 @@ ToDo:
     - Semantica a los botones toolbar
     - ponerle los links al sidenav
     - agregar un boton logout en el sidenav
+    - crear el componente navigation/header
+    - crear el componente navigation/sidenav-list 
 
 My notes:
     - 300px es bueno para la mayoria de dispositivos
@@ -36,4 +38,5 @@ My notes:
     - resposiveness: no mostrar menu en smaller, no mostrar boton en larger
     - lt lower than gt greater than util para varios valores
     - responsive api of flexlayout
+
 
