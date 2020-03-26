@@ -1,30 +1,29 @@
 <mat-toolbar color="primary">
-      <button mat-icon-button (click)="onToggleSidenav()" fxHide.gt-xs>
-        <mat-icon
-          class="example-icon"
-          aria-hidden="false"
-          aria-label="Main menu"
-          >menu</mat-icon
-        >
-      </button>
+  <!-- Se oculta en pantallas mayores que pequeñas -->
+  <button mat-icon-button (click)="onToggleSidenav()" fxHide.gt-xs>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Main menu"
+      >menu</mat-icon
+    >
+  </button>
 
-      <span>
-        <a routerLink="/">FITNESS-traking</a>
-      </span>
-      <span class="example-spacer"></span>
+  <span>
+    <a routerLink="/">FITNESS-traking</a>
+  </span>
+  <span class="example-spacer"></span>
 
-      <ul class="main-nav" role="navigation" fxLayout fxHide.lt-sm>
-        <li>
-          <a routerLink="/signup"> Signup </a>
-        </li>
-        <li>
-          <a routerLink="/login"> Login </a>
-        </li>
-        <li>
-          <a routerLink="/training"> Training </a>
-        </li>
-        <li>
-          <a routerLink="/logout"> Logout </a>
-        </li>
-      </ul>
-    </mat-toolbar>
+  <!-- Se oculta en pantallas igual o menores que pequeñas -->
+  <ul class="main-nav" role="navigation" fxLayout fxHide.lt-sm>
+    <li>
+      <a routerLink="/signup"> Signup </a>
+    </li>
+    <li>
+      <a routerLink="/login"> Login </a>
+    </li>
+    <li>
+      <a routerLink="/training"> Training </a>
+    </li>
+    <li>
+      <a routerLink="/logout"> Logout </a>
+    </li>
+  </ul>
+</mat-toolbar>

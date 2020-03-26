@@ -2,10 +2,9 @@
 
 ## App structure
 
-auth/signup: (- email  - password  - accept terms  - submit)
+auth/signup: (- email - password - accept terms - submit)
 
 auth/login
-
 
 training
 
@@ -15,8 +14,6 @@ training/new-training
 
 training/past-trainings
 
-
-
 ToDo:
     - Hacer el hover de los links
     - Responsive en toolbar y boton
@@ -24,7 +21,9 @@ ToDo:
     - ponerle los links al sidenav
     - agregar un boton logout en el sidenav
     - crear el componente navigation/header
-    - crear el componente navigation/sidenav-list 
+    - crear el componente navigation/sidenav-list
+
+    - pantalla welcome responsive column y row 
 
 My notes:
     - 300px es bueno para la mayoria de dispositivos
@@ -34,9 +33,6 @@ My notes:
     - con fxFlex se expande todo
     - en toolbar se puede convertir en flex y luego alinear flex-end
     - la idea var por darle una carga semantica ul/li role navigation al menu
-    - el logo debe ir al home
-    - resposiveness: no mostrar menu en smaller, no mostrar boton en larger
+    - el logo debe ir al home - resposiveness: no mostrar menu en smaller, no mostrar boton en larger
     - lt lower than gt greater than util para varios valores
     - responsive api of flexlayout
-
-
