@@ -42,3 +42,9 @@ My notes:
     - resposiveness: no mostrar menu en smaller, no mostrar boton en larger
     - lt lower than gt greater than util para varios valores
     - responsive api of flexlayout
+
+
+Mejoras:
+    Lazy loading componentes y modules
+    formularios reactivos
+

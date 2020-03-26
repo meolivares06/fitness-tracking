@@ -5,15 +5,16 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatButtonModule } from '@angular/material/button';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatCardModule} from '@angular/material/card';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-
+import { MatSidenavModule} from '@angular/material/sidenav';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatIconModule} from '@angular/material/icon';
 
 import { MatListModule } from '@angular/material/list';
+import { MatTabsModule} from '@angular/material/tabs';
+import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
@@ -28,7 +29,9 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTabsModule,
+    MatSelectModule
   ],
   imports: [
     MatFormFieldModule,
@@ -41,7 +44,9 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTabsModule,
+    MatSelectModule
   ]
 })
 export class MaterialModule {}
