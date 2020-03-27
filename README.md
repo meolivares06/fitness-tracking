@@ -27,6 +27,8 @@ ToDo:
 
     - pantalla welcome responsive column y row
 
+    - creacion del stoptrainingcomponent
+
 
 My notes:
     - 300px es bueno para la mayoria de dispositivos
