@@ -1,0 +1,17 @@
+$form-height: 70vh;
+$form-width: 300px;
+$min-width: 150px;
+$max-width: 300px;
+$full-width: 100%;
+
+mat-card {
+  margin: 15px;
+  max-width: $max-width;
+  min-width: $min-width;
+  width: $form-width;
+}
+
+.mat-form-field {
+  width: $full-width;
+}
+
